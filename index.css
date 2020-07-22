@@ -1,0 +1,200 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+header {
+  background-color: rgba(33, 33, 33, 0.9);
+  color: #ffffff;
+  display: block;
+  font: 14px/1.3 Arial, sans-serif;
+  height: 50px;
+  position: relative;
+  z-index: 5;
+}
+h2 {
+  margin-top: 30px;
+  text-align: center;
+}
+header h2 {
+  font-size: 22px;
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 80%;
+  text-align: center;
+}
+header a,
+a:visited {
+  text-decoration: none;
+  color: #fcfcfc;
+}
+
+@keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+@-webkit-keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+@-moz-keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+@-ms-keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+.stars,
+.twinkling,
+.effectWrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.stars {
+  background: #000
+    url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top
+    center;
+  z-index: 0;
+}
+
+.twinkling {
+  background: transparent
+    url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat
+    top center;
+  z-index: 1;
+
+  -moz-animation: move-twink-back 500s linear infinite;
+  -ms-animation: move-twink-back 500s linear infinite;
+  -o-animation: move-twink-back 500s linear infinite;
+  -webkit-animation: move-twink-back 500s linear infinite;
+  animation: move-twink-back 500s linear infinite;
+}
+
+.effectWrap {
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+  background: transparent;
+  z-index: 5;
+  overflow: hidden;
+}
+
+.planet {
+  margin: 0 auto;
+  z-index: 5;
+  opacity: 0;
+  display: block;
+  overflow: hidden;
+}
+
+.landingWrap {
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.mainPage {
+  height: 250px;
+  background-color: blue;
+}
+
+@keyframes example {
+  0% {
+    color: white;
+    text-align: center;
+    top: 1000px;
+    font-size: 50px;
+    opacity: 1;
+  }
+
+  100% {
+    text-align: center;
+    top: 0px;
+    font-size: 5px;
+    opacity: 0;
+  }
+}
+
+@keyframes planet {
+  0% {
+    top: 1000px;
+    opacity: 1;
+  }
+
+  100% {
+    top: 775px;
+    opacity: 1;
+  }
+}
+
+.test {
+  position: relative;
+  animation-name: example;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+}
+
+.test2 {
+  position: relative;
+  animation-name: example;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-delay: 1.6s;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+}
+
+.test3 {
+  position: relative;
+  animation-name: example;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-delay: 2.2s;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+}
+
+.planet {
+  position: relative;
+  animation-name: planet;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-delay: 15s;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+}
+
+.pic {
+  margin: 0 auto;
+  width: 100%;
+  width: 100%;
+}
