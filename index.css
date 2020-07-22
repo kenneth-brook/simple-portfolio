@@ -148,8 +148,62 @@ a:visited {
   }
 
   100% {
-    top: 775px;
+    top: 750px;
     opacity: 1;
+  }
+}
+
+@keyframes welcome {
+  0% {
+    color: white;
+    top: 100px;
+    text-align: center;
+    opacity: 0;
+    font-size: 25px;
+  }
+
+  100% {
+    top: 100px;
+    text-align: center;
+    opacity: 1;
+    font-size: 25px;
+    color: white;
+  }
+}
+
+@keyframes kenneth {
+  0% {
+    color: white;
+    top: 100px;
+    text-align: center;
+    opacity: 0;
+    font-size: 300px;
+  }
+
+  100% {
+    top: 100px;
+    text-align: center;
+    opacity: 1;
+    font-size: 40px;
+    color: white;
+  }
+}
+
+@keyframes brook {
+  0% {
+    color: white;
+    top: 100px;
+    text-align: center;
+    opacity: 0;
+    font-size: 300px;
+  }
+
+  100% {
+    top: 100px;
+    text-align: center;
+    opacity: 1;
+    font-size: 40px;
+    color: white;
   }
 }
 
@@ -188,7 +242,7 @@ a:visited {
   animation-name: planet;
   animation-duration: 8s;
   animation-timing-function: linear;
-  animation-delay: 15s;
+  animation-delay: 13s;
   animation-fill-mode: forwards;
   overflow: hidden;
 }
@@ -197,4 +251,34 @@ a:visited {
   margin: 0 auto;
   width: 100%;
   width: 100%;
+}
+
+.welcome {
+  position: relative;
+  animation-name: welcome;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 22s;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+}
+
+.kenneth {
+  position: relative;
+  animation-name: kenneth;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-delay: 24s;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+}
+
+.brook {
+  position: relative;
+  animation-name: brook;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-delay: 25s;
+  animation-fill-mode: forwards;
+  overflow: hidden;
 }
