@@ -389,6 +389,7 @@ a:visited {
   animation-delay: 26s;
   animation-fill-mode: forwards;
   overflow: hidden;
+  z-index: 10;
 }
 
 .full1 {
@@ -399,6 +400,7 @@ a:visited {
   animation-delay: 28s;
   animation-fill-mode: forwards;
   overflow: hidden;
+  z-index: 9;
 }
 
 .full2 {
@@ -409,4 +411,5 @@ a:visited {
   animation-delay: 30s;
   animation-fill-mode: forwards;
   overflow: hidden;
+  z-index: 8;
 }
