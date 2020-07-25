@@ -104,12 +104,6 @@ a:visited {
   overflow: hidden;
 }
 
-.button {
-  margin: 0 auto;
-  z-index: 5;
-  overflow: hidden;
-}
-
 .planet {
   margin: 0 auto;
   z-index: 5;
@@ -311,37 +305,6 @@ a:visited {
   }
 }
 
-@keyframes button {
-  0% {
-    display: none;
-    color: black;
-    top: 100px;
-    text-align: center;
-    opacity: 0;
-    background-color: transparent;
-    font-size: 18px;
-  }
-
-  1% {
-    opacity: 0.2;
-  }
-
-  100% {
-    display: block;
-    top: 100px;
-    text-align: center;
-    opacity: 1;
-    background-color: lime;
-    padding: 20px;
-    font-size: 18px;
-    color: black;
-  }
-}
-
-.buttonWrap {
-  visibility: hidden;
-}
-
 .test {
   position: relative;
   animation-name: example;
@@ -444,28 +407,6 @@ a:visited {
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-delay: 30s;
-  animation-fill-mode: forwards;
-  overflow: hidden;
-}
-
-.button {
-  position: relative;
-  margin: 0 auto;
-  animation-name: button;
-  animation-duration: 3s;
-  animation-timing-function: linear;
-  animation-delay: 32s;
-  animation-fill-mode: forwards;
-  overflow: hidden;
-}
-
-.button {
-  position: relative;
-  margin: 0 auto;
-  animation-name: button;
-  animation-duration: 3s;
-  animation-timing-function: linear;
-  animation-delay: 32s;
   animation-fill-mode: forwards;
   overflow: hidden;
 }
