@@ -5,7 +5,7 @@
     <title>Kenneth Brook Portfolio</title>
     <link rel="stylesheet" href="./index.css" />
   </head>
-  <body>
+  <body onLoad="setTimeout(buttonLaunch, 30000)">
     <div class="landingWrap">
       <div class="effectWrap">
         <div class="test">
@@ -35,7 +35,9 @@
         <div class="full2">
           <h1>With a grand passion for bringing vivid imaginations to life</h1>
         </div>
-        <div id="last"></div>
+        <div id="last" class="buttonHide">
+          <button class="button">Enter my World</button>
+        </div>
       </div>
       <div class="planet">
         <img class="pic" src="./images/planet.png" alt="earth" />
@@ -44,5 +46,10 @@
       <div class="twinkling"></div>
     </div>
   </body>
-  <script></script>
+  <script>
+    function buttonLaunch() {
+      let element = document.getElementById("last");
+      element.classList.add("buttonShow");
+    }
+  </script>
 </html>
