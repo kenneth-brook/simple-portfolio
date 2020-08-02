@@ -2,12 +2,16 @@
 #navbar {
   overflow: hidden;
   background-color: #cfdbfc;
-  padding: 90px 10px; /* Large padding which will shrink on scroll (using JS) */
+  padding: 50px 10px; /* Large padding which will shrink on scroll (using JS) */
   transition: 0.4s; /* Adds a transition effect when the padding is decreased */
   position: fixed; /* Sticky/fixed navbar */
   width: 100%;
   top: 0; /* At the top */
   z-index: 99;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Style the navbar links */
@@ -17,14 +21,15 @@
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 25px;
-  border-radius: 4px;
+  border-radius: 8px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /* Style the logo */
 #navbar #logo {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
   transition: 0.4s;
 }
@@ -36,7 +41,7 @@
 }
 
 /* Style the active/current link */
-#navbar a.active {
+#navbar a#active {
   background-color: dodgerblue;
   color: white;
 }
@@ -64,4 +69,55 @@
 
 body {
   height: 2000px;
+}
+
+a.link {
+  font-size: 40px;
+}
+
+#pic {
+  width: 150px;
+  border-radius: 50%;
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+}
+
+.leftWrap {
+  display: flex;
+  align-items: center;
+}
+
+.push {
+  height: 230px;
+  display: flex;
+}
+
+.intro {
+  justify-content: space-around;
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.intro p {
+  margin: 0 20px;
+  padding-bottom: 20px;
+}
+
+.me {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.site {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  border: 2px solid black;
+  border-radius: 15px;
 }
