@@ -146,7 +146,7 @@ a.link {
 }
 
 .article h2 {
-  font-size: 28px;
+  font-size: 30px;
   padding: 0;
   margin: 15px 0 0;
 }
@@ -154,4 +154,9 @@ a.link {
 .article-wrap {
   width: 95%;
   margin: 0 auto;
+}
+
+.image {
+  width: 98%;
+  margin-top: 15px;
 }
