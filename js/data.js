@@ -15,6 +15,10 @@ const data = [
     id: 4,
     title: "and yet another awsome app",
   },
+  {
+    id: 5,
+    title: "Niyon",
+  },
 ];
 
 const articles = document.querySelector(".articles");
