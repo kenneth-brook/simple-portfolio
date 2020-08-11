@@ -5,7 +5,7 @@ const data = [
     img: "./images/randm.png",
     hublink: "https://github.com/kenneth-brook/rick-and-morty-api",
     weblink: "https://my-rick-and-morty-api.herokuapp.com/",
-    stack: ["React", "Axios", "SASS"],
+    stack: [" React", " Axios", " SASS"],
     info: "",
   },
   {
@@ -61,14 +61,16 @@ function createArticles(title, img, stack) {
   const header = document.createElement("h2");
 
   //Tech list
-  const stackPack = document.createElement("div");
+  const stackList = document.createElement("h4");
+  stackList.classList.add("list");
+  const stackPack = document.createElement("h4");
   stackPack.classList.add("stack");
 
-  function stackWrite() {
-    for (let i = 0; i < stack.length; i++) {
-      document.write(stack[i]);
-    }
-  }
+  // function stackWrite() {
+  //   for (let i = 0; i < stack.length; i++) {
+  //     document.write(stack[i]);
+  //   }
+  // }
 
   //Image
   const image = document.createElement("img");
@@ -76,15 +78,17 @@ function createArticles(title, img, stack) {
 
   // Append child elements
   article.appendChild(header);
+  article.appendChild(stackList);
   article.appendChild(stackPack);
   article.appendChild(image);
 
   // TextContent for the elements
   header.textContent = title;
   image.src = img;
-  stackPack.div = stackPack;
+  stackList.textContent = "Tech stack:";
+  stackPack.textContent = `${stack}`;
 
-  document.getElementsByClassName("stack").innerHTML = stackWrite();
+  //document.getElementsByClassName("stack").innerHTML = stackWrite();
 
   return article;
 }
