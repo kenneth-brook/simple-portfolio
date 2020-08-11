@@ -66,12 +66,6 @@ function createArticles(title, img, stack) {
   const stackPack = document.createElement("h4");
   stackPack.classList.add("stack");
 
-  // function stackWrite() {
-  //   for (let i = 0; i < stack.length; i++) {
-  //     document.write(stack[i]);
-  //   }
-  // }
-
   //Image
   const image = document.createElement("img");
   image.classList.add("image");
@@ -87,8 +81,6 @@ function createArticles(title, img, stack) {
   image.src = img;
   stackList.textContent = "Tech stack:";
   stackPack.textContent = `${stack}`;
-
-  //document.getElementsByClassName("stack").innerHTML = stackWrite();
 
   return article;
 }
