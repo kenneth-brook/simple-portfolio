@@ -160,3 +160,28 @@ a.link {
   width: 98%;
   margin-top: 15px;
 }
+
+.button-wrap {
+  display: flex;
+}
+
+.button-house-l {
+  width: 50%;
+}
+.button-house-r {
+  width: 50%;
+}
+
+.button-l {
+  background-color: #cfdbfc;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+.button-r {
+  background-color: palegreen;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 12px;
+}
