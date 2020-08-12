@@ -2,7 +2,7 @@ const data = [
   {
     id: 1,
     title: "Rick & Morty API",
-    img: "./images/randm.png",
+    img: "./images/randm.PNG",
     hublink: "https://github.com/kenneth-brook/rick-and-morty-api",
     weblink: "https://my-rick-and-morty-api.herokuapp.com/",
     stack: [" React", " Axios", " SASS"],
