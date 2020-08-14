@@ -173,14 +173,16 @@ a.link {
 }
 
 .button-l {
-  background-color: #cfdbfc;
+  background-color: #4e5c85;
+  color: white;
   padding: 15px;
   border: 2px solid black;
   border-radius: 12px;
 }
 
 .button-r {
-  background-color: palegreen;
+  background-color: rgb(85, 129, 85);
+  color: white;
   padding: 15px;
   border: 2px solid black;
   border-radius: 12px;
