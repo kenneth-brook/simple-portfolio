@@ -12,11 +12,12 @@ const data = [
   {
     id: 2,
     title: "NASA photo of the day",
-    img: "",
-    hublink: "",
-    weblink: "",
-    stack: [],
-    info: "",
+    img: "./images/nasapotd.PNG",
+    hublink: "https://github.com/kenneth-brook/nasa-potd",
+    weblink: "https://my-nasa-potd-app.herokuapp.com/",
+    stack: [" React", " Context API", " CSS"],
+    info:
+      "Another class project that was great for learning API calls, but much more was possible. The original only pulled in the image, and information for the current day. My rebuild includes a date picker calendar, and state management with the use of context API to pass a date string between components. Now you can see all of the past NASA Photos of the Day.",
   },
   {
     id: 3,

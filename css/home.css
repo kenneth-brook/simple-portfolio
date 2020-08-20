@@ -68,7 +68,7 @@
 }
 
 body {
-  width: 100%;
+  width: 100vw;
   height: 2000px;
 }
 
@@ -109,18 +109,26 @@ a.link {
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 48%;
+  width: 47%;
   border: 2px solid black;
   border-radius: 15px;
+}
+
+.me p {
+  font-size: 1.3rem;
 }
 
 .site {
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 48%;
+  width: 47%;
   border: 2px solid black;
   border-radius: 15px;
+}
+
+.site p {
+  font-size: 1.3rem;
 }
 
 .articles {
@@ -186,4 +194,10 @@ a.link {
   padding: 15px;
   border: 2px solid black;
   border-radius: 12px;
+}
+
+.notice {
+  width: 100%;
+  color: red;
+  text-align: center;
 }
