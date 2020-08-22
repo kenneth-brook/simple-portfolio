@@ -201,3 +201,17 @@ a.link {
   color: red;
   text-align: center;
 }
+
+.ty h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.ty h2 {
+  font-size: 2rem;
+}
+
+.ty p {
+  font-size: 1.4rem;
+  text-align: center;
+}
