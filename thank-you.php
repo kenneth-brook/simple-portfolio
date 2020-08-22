@@ -4,8 +4,42 @@
       <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
       <title>Thank you!</title>
       <link rel="STYLESHEET" type="text/css" href="contact.css">
+      <link rel="stylesheet" href="./css/home.css" />
 </head>
 <body>
+    <div id="navbar">
+      <div class="leftWrap">
+        <img id="pic" src="./images/download.png" />
+        <a href="#default" id="logo"> Portfolio of Kenneth Brook</a>
+      </div>
+      <div id="navbar-right">
+        <a class="link" id="active" href="./home.html">Home</a>
+        <a class="link" href="./contact.php">Contact</a>
+        <a class="link" href="#about">About</a>
+      </div>
+    </div>
+    <script>
+      // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 80 ||
+          document.documentElement.scrollTop > 80
+        ) {
+          document.getElementById("navbar").style.padding = "20px 10px";
+          document.getElementById("logo").style.fontSize = "25px";
+          document.getElementById("pic").style.width = "75px";
+        } else {
+          document.getElementById("navbar").style.padding = "50px 10px";
+          document.getElementById("logo").style.fontSize = "40px";
+          document.getElementById("pic").style.width = "150px";
+        }
+      }
+    </script>
+    <div class="push"></div>
 
 <h2>Thanks for contacting us!</h2>
 
