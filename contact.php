@@ -77,7 +77,8 @@ if(isset($_POST['submitted']))
     <div class="push"></div>
 <!-- Form Code Start -->
 <form id='contactus' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
-<fieldset >
+<div class='contactBox'>
+<fieldset>
 <legend>Contact us</legend>
 
 <input type='hidden' name='submitted' id='submitted' value='1'/>
@@ -110,6 +111,7 @@ if(isset($_POST['submitted']))
 </div>
 
 </fieldset>
+    </div>
 </form>
 <!-- client-side Form Validations:
 Uses the excellent form validation script from JavaScript-coder.com-->

@@ -215,3 +215,9 @@ a.link {
   font-size: 1.4rem;
   text-align: center;
 }
+
+.contactBox {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
