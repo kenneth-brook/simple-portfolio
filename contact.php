@@ -50,7 +50,7 @@ if(isset($_POST['submitted']))
       <div id="navbar-right">
         <a class="link" href="./home.html">Home</a>
         <a class="link" id="active" href="./contact.php">Contact</a>
-        <a class="link" href="#about">About</a>
+        <a class="link" href="./about.html">About-Me</a>
       </div>
     </div>
     <script>
