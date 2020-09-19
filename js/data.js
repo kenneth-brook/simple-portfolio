@@ -78,10 +78,6 @@ function createArticles(title, img, stack, info, hublink, weblink) {
   //link buttons
   const buttonWrap = document.createElement("div");
   buttonWrap.classList.add("button-wrap");
-  const buttonHouseL = document.createElement("div");
-  buttonHouseL.classList.add("button-house-l");
-  const buttonHouseR = document.createElement("div");
-  buttonHouseR.classList.add("button-house-l");
   const buttonL = document.createElement("button");
   buttonL.classList.add("button-l");
   const buttonR = document.createElement("button");
@@ -102,10 +98,8 @@ function createArticles(title, img, stack, info, hublink, weblink) {
   article.appendChild(image);
   article.appendChild(infoList);
   article.appendChild(buttonWrap);
-  buttonWrap.appendChild(buttonHouseL);
-  buttonWrap.appendChild(buttonHouseR);
-  buttonHouseL.appendChild(buttonL);
-  buttonHouseR.appendChild(buttonR);
+  buttonWrap.appendChild(buttonL);
+  buttonWrap.appendChild(buttonR);
 
   // TextContent for the elements
   header.textContent = title;

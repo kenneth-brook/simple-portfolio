@@ -149,15 +149,18 @@ a.link {
 
 .article {
   width: 30%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
   padding: 0 20px 25px;
   border: 1px solid lightgrey;
   border-radius: 10px;
   background-color: white;
-  position: relative;
-  overflow: hidden;
+  /*position: relative;
+  overflow: hidden;*/
   box-shadow: 2px 2px 2px lightgrey;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 20px;
 }
 
@@ -179,13 +182,8 @@ a.link {
 
 .button-wrap {
   display: flex;
-}
-
-.button-house-l {
-  width: 50%;
-}
-.button-house-r {
-  width: 50%;
+  justify-content: space-around;
+  height: inherit;
 }
 
 .button-l {
