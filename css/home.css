@@ -88,7 +88,7 @@ a.link {
 }
 
 .push {
-  height: 230px;
+  height: 250px;
   display: flex;
 }
 
@@ -105,6 +105,11 @@ a.link {
   padding-bottom: 20px;
 }
 
+.me-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
 .me {
   align-items: center;
   display: flex;
@@ -116,6 +121,7 @@ a.link {
 
 .me p {
   font-size: 1.3rem;
+  margin: 0 15px;
 }
 
 .site {
@@ -129,6 +135,8 @@ a.link {
 
 .site p {
   font-size: 1.3rem;
+  margin: 0 15px;
+  margin-bottom: 15px;
 }
 
 .articles {
