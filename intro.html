@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Kenneth Brook Portfolio</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body onLoad="setTimeout(buttonLaunch, 30000)">
+    <div class="landingWrap">
+      <div class="effectWrap">
+        <div class="test">
+          <h1>Long long ago, on internet speeds of 28.8k</h1>
+        </div>
+        <div class="test2">
+          <h1>My journey to web development began</h1>
+        </div>
+        <div class="test3">
+          <h1>
+            After many long years, I am ready for the development world
+          </h1>
+        </div>
+        <div class="welcome">
+          <h1>Welcome to the Portfolio of</h1>
+        </div>
+        <div class="kenneth">
+          <h1>Kenneth</h1>
+        </div>
+        <div class="brook">
+          <h1>Brook</h1>
+        </div>
+        <div class="full">
+          <h1>Trained as a fullstack developer</h1>
+        </div>
+        <div class="full1">
+          <h1>Well versed in the realm of frontend design</h1>
+        </div>
+        <div class="full2">
+          <h1>With a grand passion for bringing vivid imaginations to life</h1>
+        </div>
+        <div id="last" class="buttonHide">
+          <a class="buttonPad" href="./home.html"
+            ><button class="button">Enter my World</button>
+          </a>
+        </div>
+      </div>
+      <div class="planet">
+        <img class="pic" src="./images/planet.png" alt="earth" />
+      </div>
+      <div class="stars"></div>
+      <div class="twinkling"></div>
+    </div>
+  </body>
+  <script>
+    function buttonLaunch() {
+      let element = document.getElementById("last");
+      element.classList.add("buttonShow");
+    }
+  </script>
+</html>
