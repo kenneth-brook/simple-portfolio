@@ -68,12 +68,17 @@ function createArticles(title, img, stack, info, hublink, weblink) {
   const stackPack = document.createElement("h4");
   stackPack.classList.add("stack");
 
+  //imageInfoWrap
+  const imageInfoWrap = document.createElement("div");
+  imageInfoWrap.classList.add("imageInfoWrap");
+
   //Image
   const image = document.createElement("img");
   image.classList.add("image");
 
   //info
   const infoList = document.createElement("p");
+  infoList.classList.add("infoList");
 
   //link buttons
   const buttonWrap = document.createElement("div");
@@ -95,8 +100,9 @@ function createArticles(title, img, stack, info, hublink, weblink) {
   article.appendChild(header);
   article.appendChild(stackList);
   article.appendChild(stackPack);
-  article.appendChild(image);
-  article.appendChild(infoList);
+  article.appendChild(imageInfoWrap);
+  imageInfoWrap.appendChild(image);
+  imageInfoWrap.appendChild(infoList);
   article.appendChild(buttonWrap);
   buttonWrap.appendChild(buttonL);
   buttonWrap.appendChild(buttonR);
