@@ -2,7 +2,7 @@
 #navbar {
   overflow: hidden;
   background-color: #cfdbfc;
-  padding: 50px 10px; /* Large padding which will shrink on scroll (using JS) */
+  padding-top: 50px; /* Large padding which will shrink on scroll (using JS) */
   transition: 0.4s; /* Adds a transition effect when the padding is decreased */
   position: fixed; /* Sticky/fixed navbar */
   width: 99%;
@@ -10,8 +10,19 @@
   z-index: 99;
   font-family: Georgia, "Times New Roman", Times, serif;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+}
+
+.upperNav {
+  display: flex;
+  justify-items: space-between;
   align-items: center;
+}
+
+#skillBar {
+  background-color: #cffcda;
+  width: 100%;
+  min-height: 40px;
 }
 
 /* Style the navbar links */
@@ -80,6 +91,7 @@ a.link {
   width: 150px;
   border-radius: 50%;
   transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  margin-bottom: 20px;
 }
 
 .leftWrap {
