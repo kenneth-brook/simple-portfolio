@@ -32,3 +32,25 @@
   width: 95%;
   margin: 0 auto;
 }
+
+.imageInfoWrapAbout {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.imageAbout {
+  width: 35%;
+}
+
+@media (max-width: 1400px) {
+  .imageInfoWrapAbout {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .imageAbout {
+    width: 50%;
+    margin: 0 auto;
+  }
+}

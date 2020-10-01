@@ -23,8 +23,8 @@ const data = [
     id: 3,
     title: "Niyon",
     img: "./images/niyonapp.PNG",
-    hublink: "",
-    weblink: "",
+    hublink: "https://github.com/Lambda-School-Labs/niyon-fe",
+    weblink: "https://www.theniyonapp.com/",
     stack: [
       " React",
       " Axios",
@@ -35,7 +35,8 @@ const data = [
       " Socket.io",
       " Map Box",
     ],
-    info: "",
+    info:
+      "This is the project from the labs portion of my training. I was 1 of 6 developers working under a simulated work environment. We designed, planned, and set multiple release canvas goals. We reported to, and was guided by a real world project manager. This project was designed to help young tech professionals connect with mentors. The target audience is West Africa, this led us to design the app for mobile devices, as apraximatly 80% only have access to the internet through phones. The app has the ability for the user to search for mentors and mentees. Pending connections can be accepted or rejected. The ability to see your connections on the map by their listed city is built in. The main feature implemented is real time chat in rooms based on all the available technologies.",
   },
 ];
 
