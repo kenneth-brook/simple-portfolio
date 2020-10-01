@@ -2,7 +2,7 @@
 #navbar {
   overflow: hidden;
   background-color: #cfdbfc;
-  padding-top: 50px; /* Large padding which will shrink on scroll (using JS) */
+  padding-top: 30px; /* Large padding which will shrink on scroll (using JS) */
   transition: 0.4s; /* Adds a transition effect when the padding is decreased */
   position: fixed; /* Sticky/fixed navbar */
   width: 99%;
@@ -65,9 +65,20 @@
 
 /* Style the logo */
 #navbar #logo {
-  font-size: 40px;
+  margin-left: 20px;
+  font-size: 25px;
   font-weight: bold;
   transition: 0.4s;
+}
+
+@media (max-width: 1100px) {
+  #navbar #logo {
+    margin-left: 10px;
+  }
+
+  #pic {
+    margin-left: 10px;
+  }
 }
 
 /* Links on mouse-over */
@@ -89,7 +100,7 @@
 }
 
 /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 975px) {
   #navbar {
     padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
   }
@@ -112,13 +123,14 @@ a.link {
   font-size: 40px;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   a.link {
     font-size: 30px;
   }
 }
 
 #pic {
+  margin-left: 20px;
   width: 150px;
   border-radius: 50%;
   transition: 0.4s; /* Adds a transition effect when the padding is decreased */
@@ -135,6 +147,15 @@ a.link {
   display: flex;
 }
 
+@media only screen and (max-width: 1425px) {
+  .push {
+    height: 220px;
+  }
+  #skillBar {
+    display: none;
+  }
+}
+
 .intro {
   justify-content: space-around;
   display: flex;
@@ -149,6 +170,7 @@ a.link {
 }
 
 .me-wrap {
+  width: 100%;
   display: flex;
   justify-content: space-around;
 }
@@ -167,7 +189,7 @@ a.link {
   margin: 0 15px;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .me p {
     font-size: 1rem;
   }
@@ -186,6 +208,22 @@ a.link {
   font-size: 1.3rem;
   margin: 0 15px;
   margin-bottom: 15px;
+}
+
+@media (max-width: 975px) {
+  .me-wrap {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .me {
+    width: 99%;
+    margin-bottom: 20px;
+  }
+
+  .site {
+    width: 99%;
+  }
 }
 
 .articles {
@@ -225,6 +263,7 @@ a.link {
 
 .imageInfoWrap {
   display: flex;
+  width: 100%;
 }
 
 .image {
@@ -235,6 +274,18 @@ a.link {
 .infoList {
   margin-left: 25px;
   font-size: 1.6rem;
+}
+
+@media (max-width: 975px) {
+  .imageInfoWrap {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .image {
+    width: 50%;
+    margin: 0 auto;
+  }
 }
 
 .button-wrap {
