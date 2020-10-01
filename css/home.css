@@ -21,9 +21,12 @@
 
 #skillBar {
   background-color: #cffcda;
+  border-top: 6px ridge #999;
+  border-bottom: 1px solid black;
   width: 100%;
   min-height: 40px;
   display: flex;
+  justify-content: center;
 }
 
 .skill {
@@ -86,7 +89,7 @@
 }
 
 /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 768px) {
   #navbar {
     padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
   }
@@ -109,6 +112,12 @@ a.link {
   font-size: 40px;
 }
 
+@media screen and (max-width: 768px) {
+  a.link {
+    font-size: 30px;
+  }
+}
+
 #pic {
   width: 150px;
   border-radius: 50%;
@@ -122,7 +131,7 @@ a.link {
 }
 
 .push {
-  height: 320px;
+  height: 340px;
   display: flex;
 }
 
@@ -156,6 +165,12 @@ a.link {
 .me p {
   font-size: 1.3rem;
   margin: 0 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .me p {
+    font-size: 1rem;
+  }
 }
 
 .site {
