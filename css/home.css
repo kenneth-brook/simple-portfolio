@@ -33,6 +33,20 @@
   margin: 10px 7px;
 }
 
+#skillText1,
+#skillText2,
+#skillText3,
+#skillText4,
+#skillText5,
+#skillText6,
+#skillText7,
+#skillText8,
+#skillText9,
+#skillText10 {
+  font-size: 20px;
+  transition: 0.4s;
+}
+
 /* Style the navbar links */
 #navbar a {
   float: left;
@@ -108,7 +122,7 @@ a.link {
 }
 
 .push {
-  height: 270px;
+  height: 320px;
   display: flex;
 }
 

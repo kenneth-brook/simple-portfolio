@@ -37,20 +37,52 @@ if(isset($_POST['submitted']))
     <meta charset="utf-8" />
     <title>Kenneth Brook Portfolio</title>
     <link rel="stylesheet" href="./css/home.css" />
-    <link rel="STYLESHEET" type="text/css" href="contact.css" />
-      <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
     <script src="./js/data.js" defer></script>
   </head>
   <body>
     <div id="navbar">
-      <div class="leftWrap">
-        <img id="pic" src="./images/download.png" />
-        <a href="#default" id="logo"> Portfolio of Kenneth Brook</a>
+      <div class="upperNav">
+        <div class="leftWrap">
+          <img id="pic" src="./images/download.png" />
+          <a href="#default" id="logo"> Portfolio of Kenneth Brook</a>
+        </div>
+        <div id="navbar-right">
+          <a class="link" href="./index.html">Home</a>
+          <a class="link" id="active" href="./contact.php">Contact</a>
+          <a class="link" href="./about.html">About-Me</a>
+        </div>
       </div>
-      <div id="navbar-right">
-        <a class="link" href="./index.html">Home</a>
-        <a class="link" id="active" href="./contact.php">Contact</a>
-        <a class="link" href="./about.html">About-Me</a>
+      <div id="skillBar">
+        <div class="skill">
+          <h4 id="skillText1">HTML</h4>
+        </div>
+        <div class="skill">
+          <h4 id="skillText2">CSS</h4>
+        </div>
+        <div class="skill">
+          <h4 id="skillText3">JS</h4>
+        </div>
+        <div class="skill">
+          <h4 id="skillText4">React</h4>
+        </div>
+        <div class="skill">
+          <h4 id="skillText5">Jest</h4>
+        </div>
+        <div class="skill">
+          <h4 id="skillText6">React-Spring</h4>
+        </div>
+        <div class="skill">
+          <h4 id="skillText7">ContextAPI</h4>
+        </div>
+        <div class="skill">
+          <h4 id="skillText8">Node</h4>
+        </div>
+        <div class="skill">
+          <h4 id="skillText9">PostgreSQL</h4>
+        </div>
+        <div class="skill">
+          <h4 id="skillText10">Python</h4>
+        </div>
       </div>
     </div>
     <script src="./js/nav.js"></script>
