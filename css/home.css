@@ -335,3 +335,28 @@ a.link {
   justify-content: center;
   width: 100%;
 }
+
+.foot {
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social {
+  display: flex;
+}
+
+.links {
+  color: white;
+}
+
+.foot h6 {
+  align-self: center;
+  font-size: 0.9rem;
+}
+
+.social h5 {
+  font-size: 1.2rem;
+}

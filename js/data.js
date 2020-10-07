@@ -46,7 +46,7 @@ const data = [
     weblink: "https://my-gol.herokuapp.com/",
     stack: [" React", " javascript", " bootstrap"],
     info:
-      "This is the project from the labs portion of my training. I was 1 of 6 developers working under a simulated work environment. We designed, planned, and set multiple release canvas goals. We reported to, and was guided by a real world project manager. This project was designed to help young tech professionals connect with mentors. The target audience is West Africa, this led us to design the app for mobile devices, as apraximatly 80% only have access to the internet through phones. The app has the ability for the user to search for mentors and mentees. Pending connections can be accepted or rejected. The ability to see your connections on the map by their listed city is built in. The main feature implemented is real time chat in rooms based on all the available technologies.",
+      "This is a solo build project from the computer science portion of class. After 6 weeks of learning algorithms in python we were set loose to build this project in any language we wanted. I selected React for ease of build, and deployment. I also wrote the algorithms in Javascript to further strengthen my capabilities in this language. Included is 2 board sizes, 3 levels of speed control, and random seeds or pre configured shapes. You can also click on cells to make your own design to run.",
   },
 ];
 
@@ -125,7 +125,7 @@ function createArticles(title, img, stack, info, hublink, weblink) {
   stackPack.textContent = `${stack}`;
   infoList.textContent = info;
   buttonL.textContent = "See on GitHub";
-  buttonR.textContent = "Visit the site";
+  buttonR.textContent = "Visit the Site";
 
   return article;
 }

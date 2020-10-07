@@ -44,7 +44,7 @@ if(isset($_POST['submitted']))
       <div class="upperNav">
         <div class="leftWrap">
           <img id="pic" src="./images/download.png" />
-          <a href="#default" id="logo"> Portfolio of Kenneth Brook</a>
+          <a href="#default" id="logo"><h4>Portfolio of Kenneth Brook</h4><p>Fullstack Trained, Seeking Frontend Roll</p></a>
         </div>
         <div id="navbar-right">
           <a class="link" href="./index.html">Home</a>
@@ -144,5 +144,29 @@ Uses the excellent form validation script from JavaScript-coder.com-->
 
 // ]]>
 </script>
+<footer>
+      <div class="foot">
+        <h6>&copy;Kennetic Concepts 2010-2020</h6>
+        <span class="social">
+          <h5>
+            follow me on:
+            <ul class="links">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/kenneth-brook/"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a href="https://github.com/kenneth-brook" target="_blank"
+                  >Github</a
+                >
+              </li>
+            </ul>
+          </h5>
+        </span>
+      </div>
+    </footer>
   </body>
 </html>
