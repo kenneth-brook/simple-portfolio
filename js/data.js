@@ -38,6 +38,16 @@ const data = [
     info:
       "This is the project from the labs portion of my training. I was 1 of 6 developers working under a simulated work environment. We designed, planned, and set multiple release canvas goals. We reported to, and was guided by a real world project manager. This project was designed to help young tech professionals connect with mentors. The target audience is West Africa, this led us to design the app for mobile devices, as apraximatly 80% only have access to the internet through phones. The app has the ability for the user to search for mentors and mentees. Pending connections can be accepted or rejected. The ability to see your connections on the map by their listed city is built in. The main feature implemented is real time chat in rooms based on all the available technologies.",
   },
+  {
+    id: 4,
+    title: "Conway’s Game of Life",
+    img: "./images/gol.PNG",
+    hublink: "https://github.com/kenneth-brook/gol-try-2",
+    weblink: "https://my-gol.herokuapp.com/",
+    stack: [" React", " javascript", " bootstrap"],
+    info:
+      "This is the project from the labs portion of my training. I was 1 of 6 developers working under a simulated work environment. We designed, planned, and set multiple release canvas goals. We reported to, and was guided by a real world project manager. This project was designed to help young tech professionals connect with mentors. The target audience is West Africa, this led us to design the app for mobile devices, as apraximatly 80% only have access to the internet through phones. The app has the ability for the user to search for mentors and mentees. Pending connections can be accepted or rejected. The ability to see your connections on the map by their listed city is built in. The main feature implemented is real time chat in rooms based on all the available technologies.",
+  },
 ];
 
 const articles = document.querySelector(".articles");
